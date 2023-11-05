@@ -6,6 +6,9 @@ require (
 	entgo.io/ent v0.12.4
 	github.com/go-faster/errors v0.6.1
 	github.com/go-faster/jx v1.1.0
+	github.com/gofiber/contrib/jwt v1.0.7
+	github.com/gofiber/fiber/v2 v2.50.0
+	github.com/golang-jwt/jwt/v5 v5.0.0
 	github.com/joho/godotenv v1.5.1
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/ogen-go/ogen v0.77.0
@@ -19,7 +22,9 @@ require (
 
 require (
 	ariga.io/atlas v0.14.1-0.20230918065911-83ad451a4935 // indirect
+	github.com/MicahParks/keyfunc/v2 v2.1.0 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
+	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
@@ -32,12 +37,18 @@ require (
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/uuid v1.4.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.15.0 // indirect
+	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v1.50.0 // indirect
+	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/zclconf/go-cty v1.12.1 // indirect
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/exp v0.0.0-20230725093048-515e97ebf090 // indirect
