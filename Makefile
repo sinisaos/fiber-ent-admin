@@ -6,4 +6,6 @@ generate:
 
 tests:
 	go test -v -cover ./service/...
-	
+
+superuser:
+	go run admin/cli/main.go	

@@ -19,7 +19,15 @@ func main() {
 		ExposeHeaders:    "X-Total-Count",
 	}))
 
+	app.Static("/", "./admin/dist", fiber.Static{
+		Index: "index.html",
+	})
+
 	router.SetupRoutes(app)
+
+	app.Static("/swagger", "./docs", fiber.Static{
+		Index: "index.html",
+	})
 
 	log.Fatal(app.Listen(":3000"))
 }
