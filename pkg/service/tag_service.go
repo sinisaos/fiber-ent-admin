@@ -6,7 +6,7 @@ import (
 	"github.com/sinisaos/fiber-ent-admin/ent"
 	"github.com/sinisaos/fiber-ent-admin/ent/predicate"
 	"github.com/sinisaos/fiber-ent-admin/ent/tag"
-	"github.com/sinisaos/fiber-ent-admin/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
 )
 
 type TagService struct {

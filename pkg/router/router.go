@@ -1,10 +1,10 @@
 package router
 
 import (
-	"github.com/sinisaos/fiber-ent-admin/database"
-	"github.com/sinisaos/fiber-ent-admin/handler"
-	"github.com/sinisaos/fiber-ent-admin/middleware"
-	"github.com/sinisaos/fiber-ent-admin/service"
+	"github.com/sinisaos/fiber-ent-admin/pkg/database"
+	"github.com/sinisaos/fiber-ent-admin/pkg/handler"
+	"github.com/sinisaos/fiber-ent-admin/pkg/middleware"
+	"github.com/sinisaos/fiber-ent-admin/pkg/service"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"

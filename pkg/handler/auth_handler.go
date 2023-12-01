@@ -3,9 +3,9 @@ package handler
 import (
 	"time"
 
-	"github.com/sinisaos/fiber-ent-admin/database"
-	"github.com/sinisaos/fiber-ent-admin/model"
-	"github.com/sinisaos/fiber-ent-admin/service"
+	"github.com/sinisaos/fiber-ent-admin/pkg/database"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/service"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"

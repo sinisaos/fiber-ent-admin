@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/sinisaos/fiber-ent-admin/router"
+	"github.com/sinisaos/fiber-ent-admin/pkg/router"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
@@ -25,7 +25,7 @@ func main() {
 
 	router.SetupRoutes(app)
 
-	app.Static("/swagger", "./docs", fiber.Static{
+	app.Static("/swagger", "./api/docs", fiber.Static{
 		Index: "index.html",
 	})
 

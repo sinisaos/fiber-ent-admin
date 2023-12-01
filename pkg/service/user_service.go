@@ -7,8 +7,8 @@ import (
 	"github.com/sinisaos/fiber-ent-admin/ent"
 	"github.com/sinisaos/fiber-ent-admin/ent/predicate"
 	"github.com/sinisaos/fiber-ent-admin/ent/user"
-	"github.com/sinisaos/fiber-ent-admin/model"
-	"github.com/sinisaos/fiber-ent-admin/utils"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/utils"
 )
 
 type UserService struct {

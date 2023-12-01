@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/sinisaos/fiber-ent-admin/ent/enttest"
-	"github.com/sinisaos/fiber-ent-admin/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/assert"

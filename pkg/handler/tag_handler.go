@@ -3,8 +3,8 @@ package handler
 import (
 	"strconv"
 
-	"github.com/sinisaos/fiber-ent-admin/model"
-	"github.com/sinisaos/fiber-ent-admin/service"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/service"
 
 	"github.com/gofiber/fiber/v2"
 )

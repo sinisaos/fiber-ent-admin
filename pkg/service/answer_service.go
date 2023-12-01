@@ -7,7 +7,7 @@ import (
 	"github.com/sinisaos/fiber-ent-admin/ent"
 	"github.com/sinisaos/fiber-ent-admin/ent/answer"
 	"github.com/sinisaos/fiber-ent-admin/ent/predicate"
-	"github.com/sinisaos/fiber-ent-admin/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
 )
 
 type AnswerService struct {

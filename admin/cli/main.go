@@ -7,8 +7,8 @@ import (
 	"net/mail"
 	"time"
 
-	"github.com/sinisaos/fiber-ent-admin/database"
-	"github.com/sinisaos/fiber-ent-admin/utils"
+	"github.com/sinisaos/fiber-ent-admin/pkg/database"
+	"github.com/sinisaos/fiber-ent-admin/pkg/utils"
 
 	"github.com/manifoldco/promptui"
 )

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/sinisaos/fiber-ent-admin/database"
+	"github.com/sinisaos/fiber-ent-admin/pkg/database"
 
 	jwtware "github.com/gofiber/contrib/jwt"
 	"github.com/gofiber/fiber/v2"

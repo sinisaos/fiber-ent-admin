@@ -5,7 +5,7 @@ import (
 
 	"github.com/sinisaos/fiber-ent-admin/ent"
 	"github.com/sinisaos/fiber-ent-admin/ent/user"
-	"github.com/sinisaos/fiber-ent-admin/model"
+	"github.com/sinisaos/fiber-ent-admin/pkg/model"
 )
 
 type AuthService struct {
